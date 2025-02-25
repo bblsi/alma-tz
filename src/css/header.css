@@ -1,0 +1,160 @@
+
+.header-banner{
+    background-image: url('../images/back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    opacity: 0.9;
+    height: 89px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header-logo{
+    width: 187px;
+    height: 41px;
+    margin-left: 166px;
+}
+
+.header-logo img{
+    object-fit: cover;
+    overflow: hidden;
+    width: 100%;
+}
+
+.header-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:34px;
+    margin-right: 173px;
+}
+
+.header-li{
+    list-style: none;
+    font-weight: normal;
+    font-size: 17px;
+    padding-top: 16px;
+}
+
+.header-li a{
+    text-decoration: none;
+    color: #454545;
+}
+
+.header-li a:hover{
+    color: #E70C0A;
+}
+
+button{
+    border:none;
+    font-size: 17px;
+    cursor: pointer;
+}
+.login{
+    background-color: #DE6D6E;
+    color:#fff;
+    width: 90px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-radius: 5px;
+}
+
+.circles-container{
+    padding-top: 139px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.circles{
+    width: 154px;
+    height: 154px;
+    position: relative;
+}
+
+.circle1{
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    opacity: 0.59;
+    background: #fff;
+    border-radius: 50%;
+    left: 58px;
+}
+
+.circle2{
+    position: absolute;
+    width: 74px;
+    height: 74px;
+    opacity: 0.59;
+    background: #fff;
+    border-radius: 50%;
+    left:85px;
+    top: 57px;
+}
+
+.circle3{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    opacity: 0.56;
+    background: #fff;
+    border-radius: 50%;
+    top:34px;
+}
+
+.content-header{
+    color:#fff;
+    padding-top: 32px;
+    padding-bottom: 79px;
+    filter: drop-shadow(0px 0px 7px rgba(0,0,0,0.22));
+}
+
+.title-header{
+    text-transform: uppercase;
+    font-size: 69px;
+    text-align: center;
+}
+
+.under-title-header{
+    text-align: right;
+    font-size: 25px;
+}
+
+
+.header-end{
+    height: 234px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header-end-title{
+    color: #404040;
+    font-size: 35px;
+    padding-left: 21px;
+    padding-bottom: 15px;
+}
+
+.header-end-text{
+    font-size: 17px;
+    color: #636363;
+    text-align: center;
+}
